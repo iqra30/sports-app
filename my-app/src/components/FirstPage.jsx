@@ -36,8 +36,7 @@ class FirstPage extends Component {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3 className="text">First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h1 className="text">Sports update</h1>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -48,8 +47,7 @@ class FirstPage extends Component {
               />
 
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1>Sports update</h1>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -60,8 +58,7 @@ class FirstPage extends Component {
               />
 
               <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h1>Sports update</h1>  
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -72,8 +69,7 @@ class FirstPage extends Component {
               />
 
               <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h1>Sports update</h1>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
