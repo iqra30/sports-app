@@ -6,6 +6,7 @@ import ImageFour from '../Imagefour.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Badge from 'react-bootstrap/Badge';
 import './FirstPage.css';
 
 
@@ -36,7 +37,9 @@ class FirstPage extends Component {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h1 className="text">Sports update</h1>
+              <h1 className="text">
+    <Badge variant="secondary">Sports update</Badge>
+  </h1>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -47,7 +50,9 @@ class FirstPage extends Component {
               />
 
               <Carousel.Caption>
-                <h1>Sports update</h1>
+              <h1 className="text">
+    <Badge variant="secondary">Sports update</Badge>
+  </h1>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -58,7 +63,9 @@ class FirstPage extends Component {
               />
 
               <Carousel.Caption>
-                <h1>Sports update</h1>  
+              <h1 className="text">
+    <Badge variant="secondary">Sports update</Badge>
+  </h1> 
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -69,7 +76,9 @@ class FirstPage extends Component {
               />
 
               <Carousel.Caption>
-                <h1>Sports update</h1>
+              <h1 className="text">
+    <Badge variant="secondary">Sports update</Badge>
+  </h1>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
